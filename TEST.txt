@@ -1,0 +1,43 @@
+Create a Welcome page, Bill Form and Bill List
+
+> Create a Bill form and add a frontend validation of email mobile attachment etc.
+
+Form fields are -
+ 
+	 Billing Name : Textbox (type alphabatical)
+	 Billing Address : Textarea
+	 Billing State : Select Box (Use API for that)
+	 Billing City : Select Box (Use API for that)
+	 Billing Pincode : Textbox (type alphabatical)
+	 Shipping Name : Textbox (type alphabatical)
+	 Shipping Address : Textarea
+	 Shipping State : Select Box (Use API for that)
+	 Shipping City : Select Box (Use API for that)
+	 Shipping Pincode : Textbox (type alphabatical)
+	 Email : Textbox (type email)
+	 Mobile : Textbox (type number)
+	 GST No. : Textbox (type alphabatical)
+	 
+	 Total Qty : Textbox (type alphabatical)
+	 Subtotal Amt : Textbox (type password)
+	 GST Amt : Textbox (type password)
+	 Total Amt : Textbox (type password)
+	 Attachment : File (pdf, ms word, ms excel, and text file only)
+	 Entry By : (uniqe name)
+
+	  
+> After bill entry show bill list with following details in tabuler form.
+
+	  Bill No (billno)
+	  Billing Name (billing_customer)
+	  Billing Date (createdate)
+	  Email (email)
+	  Mobile (mobile)
+	  GST No (gstno)
+	  Total Qty (tot_qty)
+	  Total GST (gst_amt)
+	  Total Amt (total_amt)
+	  View Button
+	  
+> Click on View Button Show bill detail as per given format
+ 		
